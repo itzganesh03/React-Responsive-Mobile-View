@@ -1,0 +1,158 @@
+h1 {
+    padding: 10px 0;
+    font-family: "Gill Sans Extrabold", sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    }
+
+    p {
+        font-size: 19px;
+        }
+        hr {
+        color: #090000;
+        opacity: 0.3;
+        }
+.main-block-speech {
+    max-width: 340px; 
+    min-height: 460px; 
+    padding: 0px 0;
+    margin: auto;
+    border-radius: 20px; 
+    border: solid 1px linear-gradient(to right, #fc5c7d, #6a82fb);
+    box-shadow: 10px 10px 10px 10px rgba(31,31,31,.31); 
+    /* background: #eded00;  */
+    background: #3498db; 
+    
+    }
+
+form {
+    margin: 0 30px;
+    }
+    .account-type, .gender {
+    margin: 15px 0;
+    }
+    input[type=radio] {
+    display: none;
+    }
+    label#icon {
+        margin: 0;
+        border-radius: 5px 0 0 5px;
+        }
+        label.radio {
+        position: relative;
+        display: inline-block;
+        padding-top: 4px;
+        margin-right: 20px;
+        text-indent: 30px;
+        overflow: visible;
+        cursor: pointer;
+        }
+
+        label.radio:before {
+            content: "";
+            position: absolute;
+            top: 2px;
+            left: 0;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background: #1c87c9;
+            }
+            label.radio:after {
+            content: "";
+            position: absolute;
+            width: 9px;
+            height: 4px;
+            top: 8px;
+            left: 4px;
+            border: 3px solid #fff;
+            border-top: none;
+            border-right: none;
+            transform: rotate(-45deg);
+            opacity: 0;
+            }
+            input[type=radio]:checked + label:after {
+            opacity: 1;
+            }
+            input[type=text], input[type=password] {
+            width: calc(100% - 57px);
+            height: 36px;
+            margin: 13px 0 0 -5px;
+            padding-left: 10px; 
+            border-radius: 0 5px 5px 0;
+            border: solid 1px #cbc9c9; 
+            box-shadow: 1px 2px 5px rgba(0,0,0,.09); 
+            background: #fff; 
+            }
+            input[type=password] {
+            margin-bottom: 15px;
+            }
+            #icon {
+            display: inline-block;
+            padding: 9.3px 15px;
+            box-shadow: 1px 2px 5px rgba(0,0,0,.09); 
+            background: #1c87c9;
+            color: #fff;
+            text-align: center;
+            }
+            .btn-block-speech-bt {
+            margin-top: 15px;
+            text-align: center;
+            }
+            button {
+            width: 100%;
+            padding: 10px 0;
+            margin: 10px auto;
+            border-radius: 20px; 
+            border: none;
+            background: #fff;
+            border: 2px solid #000203;
+            color: #fff;
+            background-size: 400% 400%;
+            animation: gradient 5s ease infinite;
+            font-size: 14px;
+            font-weight: 600;
+            color: rgb(11, 1, 1);
+            }
+            button:hover {
+            background: #f11805;
+            }
+          
+            textarea {
+              writing-mode: horizontal-tb !important;
+              font-style: ;
+              font-variant-ligatures: ;
+              font-variant-caps: ;
+              font-variant-numeric: ;
+              font-variant-east-asian: ;
+              font-weight: ;
+              font-stretch: ;
+              font-size: ;
+              font-family: monospace;
+              text-rendering: auto;
+              color: fieldtext;
+              letter-spacing: normal;
+              word-spacing: normal;
+              line-height: normal;
+              text-transform: none;
+              text-indent: 0px;
+              text-shadow: none;
+              display: inline-block;
+              text-align: start;
+              appearance: auto;
+              -webkit-rtl-ordering: logical;
+              resize: auto;
+              cursor: text;
+              white-space: pre-wrap;
+              overflow-wrap: break-word;
+              background-color: field;
+              column-count: initial !important;
+              margin: 1px;
+              border-width: 1px;
+              border-style: solid;
+              border-radius: 7.5px;
+              border-color: -internal-light-dark(rgb(16, 1, 1), rgb(2, 0, 0));
+              border-image: initial;
+              padding: 26px;
+          }
