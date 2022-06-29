@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useState } from "react";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "../node_modules/bootstrap/dist/js/bootstrap.bundle";
+import { Lines } from 'react-preloaders';
 import Home from "./Home";
 import Service from "./Service";
 import About from "./About";
@@ -10,7 +11,16 @@ import Footer from "./Footer";
 import { Switch, Route, Redirect } from "react-router-dom";
 
 const App = () => {
+  const [loading, setLoading] = useState(true);
+  const spinner = document.getElementById("spinner");
+  if (spinner) {
+    setTimeout(() => {
+      spinner.style.display = "none";
+      setLoading(false);
+    }, 3000);
+  }
   return (
+    !loading && (
     <>
     
       <Navbar />
@@ -23,6 +33,7 @@ const App = () => {
       </Switch>
       <Footer />
     </>
+    )
   );
 };
 
