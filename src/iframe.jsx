@@ -11,7 +11,7 @@ class iframe extends React.Component {
     this.setState({ change: change });
     console.log("Ifram", this.state.change);
   }
-  deleteRow(e) {
+  iframeRow(e) {
     console.log("Iframe", e);
     if (e === true) {
       this.setState({ change: false });
@@ -21,8 +21,8 @@ class iframe extends React.Component {
   }
   render() {
     return (
-      <div>
-        <button onClick={(e) => this.deleteRow(this.state.change)}>
+      <div className="iframe">
+        <button onClick={(e) => this.iframeRow(this.state.change)}>
           Click Here!
         </button>
         {this.state.change ? (

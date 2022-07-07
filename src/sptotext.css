@@ -28,6 +28,12 @@ h1 {
     background: #3498db; 
     
     }
+.iframe{
+    max-width: 340px; 
+    min-height: 460px;
+    background: transparent; 
+    margin: auto; 
+}
 
 form {
     margin: 0 30px;
