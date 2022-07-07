@@ -1,6 +1,5 @@
 import React from "react";
 import web from "../src/images/Reliance1.png";
-import { NavLink } from "react-router-dom";
 import Commom from "./Commom";
 
 const Home = () => {
@@ -10,7 +9,9 @@ const Home = () => {
         name="Jio Internship"
         imgsrc={web}
         visit="/service"
+        visit1="/iframe"
         btname="Get Started"
+        btname1="Show iframe"
       />
     </>
   );

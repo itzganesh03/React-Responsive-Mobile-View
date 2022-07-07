@@ -4,7 +4,9 @@ const Footer = () => {
   return (
     <>
       <footer className="w-100 bg-light text-center">
-        <p>© 2022 Ganesh Modi. All Rights Reserved | Terms and Conditions</p>
+      <span>
+        <p> © 2022 Ganesh Modi. All Rights Reserved | Terms and Conditions &#128515;</p>
+        </span>       
       </footer>
     </>
   );

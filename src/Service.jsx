@@ -21,26 +21,20 @@ const Services = () => {
       <div id="grad1">
 <form>
       <div >
-     
-
-
-
-          <div class="account-type">
+            <div class="account-type">
               {/* <input value={transcript}/> */}
               <textarea value={transcript}></textarea>
           </div>
           <div class="btn-block-speech-bt-speech">
 
               <button onClick={resetTranscript}>Clear Text</button>
-              {/* <button onClick={}></button> */}
-
               <button onClick={(e) => { e.preventDefault(); SpeechRecognition.stopListening(); console.log('listening Stop...'); }}>Stop Listening</button>
           </div>
           <div class="btn-block-speech-speech">
              <hr />
               <span>
                   <p> 
-                     <b>This React App Created by Ganesh Modi&#128515;</b>
+                     <b><span>This React App Created by Ganesh Modi&#128515;</span></b>
                   </p>
               </span>
 <hr />

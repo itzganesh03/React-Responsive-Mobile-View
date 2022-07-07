@@ -22,6 +22,9 @@ const Commom = (props) => {
                     <NavLink to={props.visit} className="btn-get-started ">
                       {props.btname}
                     </NavLink>
+                    <NavLink to={props.visit1} className="btn-get-started ">
+                      {props.btname1}
+                    </NavLink>
                   </div>
                 </div>
 
