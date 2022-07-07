@@ -11,11 +11,11 @@ const Services = () => {
       SpeechRecognition.startListening({ continuous: true })
       console.log('listening starts');
   }, []);
+  
 
   return (
 <>
-
-<div div class="main-block-speech">
+<div class="main-block-speech">
       <h1>Speech Recognition</h1>
       <form action="/">
       <div id="grad1">
@@ -32,6 +32,8 @@ const Services = () => {
           <div class="btn-block-speech-bt-speech">
 
               <button onClick={resetTranscript}>Clear Text</button>
+              {/* <button onClick={}></button> */}
+
               <button onClick={(e) => { e.preventDefault(); SpeechRecognition.stopListening(); console.log('listening Stop...'); }}>Stop Listening</button>
           </div>
           <div class="btn-block-speech-speech">
@@ -62,6 +64,7 @@ const Services = () => {
       
   )
 }
+
 
 
 export default Services;

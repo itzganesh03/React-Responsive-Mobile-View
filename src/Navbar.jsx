@@ -48,6 +48,15 @@ const Navbar = () => {
                         Services
                       </NavLink>
                     </li>
+                    <li className="nav-item">
+                      <NavLink
+                        activeClassName="menu_active"
+                        className="nav-link"
+                        to="/iframe"
+                      >
+                        iframe
+                      </NavLink>
+                    </li>
 
                     <li className="nav-item">
                       <NavLink

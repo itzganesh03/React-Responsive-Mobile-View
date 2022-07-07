@@ -1,6 +1,6 @@
 import React from "react";
 import web from "../src/images/hero-img.png";
-import { NavLink } from "react-router-dom";
+// import { NavLink } from "react-router-dom";
 import Commom from "./Commom";
 
 const About = () => {
