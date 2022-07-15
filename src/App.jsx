@@ -10,7 +10,7 @@ import Navbar from "./Navbar";
 import Footer from "./Footer";
 import { Switch, Route, Redirect } from "react-router-dom";
 
-
+//Start Preloader for Welcome Screen
 const App = () => {
   const [loading, setLoading] = useState(true);
   const spinner = document.getElementById("spinner");
@@ -20,6 +20,7 @@ const App = () => {
       setLoading(false);
     }, 3000);
   }
+  //End Preloader for Welcome Screen
   return (
     !loading && (
     <>
