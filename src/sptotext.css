@@ -34,6 +34,12 @@ h1 {
     background: transparent; 
     margin: auto; 
 }
+.download{
+    max-width: 340px; 
+    min-height: 0px;
+    background: transparent; 
+    margin: auto; 
+}
 
 form {
     margin: 0 30px;
