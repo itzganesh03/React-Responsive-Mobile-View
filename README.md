@@ -1,4 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/itzganesh03/React-Responsive-Mobile-View.git).
+##This project was bootstrapped with [Create React App](https://github.com/itzganesh03/React-Responsive-Mobile-View.git).
 
 ## Live Demo Link:- https://react-responsive-mobile.netlify.app/
 
